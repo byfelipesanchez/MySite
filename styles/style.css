@@ -7,13 +7,25 @@
 
 .container {
   margin-top: 25px;
+  background-size: 200px;
   width: auto;
   text-align: center;
 }
 
 .name {
-  background-color: lightblue;
-  width: auto;
-  text-align: left;
+  width: auto !important;
+  text-align: left !important;
+  margin-top: 50px;
+  cursor: pointer;
+  color: black;
+}
+
+.name:hover {
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+body {
+  background: url("./background.jpg");
+  background-size: cover;
 }
 /*# sourceMappingURL=style.css.map */
