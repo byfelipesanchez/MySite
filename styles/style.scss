@@ -6,6 +6,10 @@
 
 }
 
+body,html {
+    height: 100%;
+}
+
 .container {
     margin-top: 25px;
     background-size: 200px;
@@ -25,11 +29,27 @@
 
 .name:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
-    
 }
 
+.half {
+    height: 80%;
+}
 
-body {
-    background: url("./background.jpg");
+.half:first-child {
+    background: url("/images/background.jpg");
     background-size: cover;
+    height: 80%;
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    bottom: 0;
+    background: green;
+}
+
+.half:last-child {
+    background-color:lightgray;
+    height: 60%;
 }
