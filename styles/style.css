@@ -59,15 +59,21 @@ section:nth-child(2) {
 }
 
 section:nth-child(3) {
-  background-color: lightgrey;
+  background-color: white;
 }
 
 section:nth-child(4) {
-  background-color: lightseagreen;
+  background-color: white;
 }
 
 .img-me {
+  float: inline-start !important;
+  clear: right !important;
+}
+
+.p {
   width: auto;
-  text-align: right !important;
+  text-align: center;
+  font-size: larger;
 }
 /*# sourceMappingURL=style.css.map */
