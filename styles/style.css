@@ -7,6 +7,9 @@
 
 body, html {
   height: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 3px;
 }
 
 .container {
@@ -18,7 +21,7 @@ body, html {
 
 .top-txt {
   width: auto;
-  text-align: center;
+  text-align: end;
 }
 
 .name {
@@ -37,12 +40,6 @@ body, html {
   height: 80%;
 }
 
-.half:first-child {
-  background: url(../images/background.jpg);
-  background-size: cover;
-  height: 80%;
-}
-
 main {
   position: absolute;
   width: 100%;
@@ -51,8 +48,26 @@ main {
   background: green;
 }
 
-.half:last-child {
-  background-color: lightgray;
-  height: 60%;
+section:nth-child(1) {
+  background: url(../images/background.jpg);
+  background-size: cover;
+  height: 80%;
+}
+
+section:nth-child(2) {
+  background-color: #ffffff;
+}
+
+section:nth-child(3) {
+  background-color: lightgrey;
+}
+
+section:nth-child(4) {
+  background-color: lightseagreen;
+}
+
+.img-me {
+  width: auto;
+  text-align: right !important;
 }
 /*# sourceMappingURL=style.css.map */
