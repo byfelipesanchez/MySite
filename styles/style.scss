@@ -68,12 +68,13 @@ body,html {
     text-align: center;
     font-weight: bolder !important;
     font-family: 'Lobster', cursive !important;
-    margin-top: 150px;
+    margin-top: auto !important;
     color: black;
 }
 
-.name:hover {
+.container-xxl:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    cursor: pointer;
 }
 
 .half {
@@ -142,3 +143,39 @@ section:nth-child(4) {
     font-size: 2.5em; 
     margin-left: 550px;
 }
+
+@media only screen and (min-width: 480px) {
+    //general
+    //header
+    //footer
+}
+
+@media only screen and (min-width: 768px){
+    //general
+    //header
+    //footer
+}
+
+
+@media only screen and (min-width: 1140px) {
+    //general
+    //header
+    //footer
+} 
+
+//fix this (making the site responsive and mobile friendly)
+
+.scroll-animation {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.paper-plane {
+    height: 100px;
+    top: 50%;
+    left: 0%;
+    position: relative;
+
+}
+

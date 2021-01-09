@@ -5,3 +5,18 @@ tl.to(".slider", {y:"-100%", duration:1.5, delay:0.5}) //slider page comes in
 tl.to(".intro", {y:"-100%", duration:1})
 tl.fromTo("nav", { opacity: 0 }, { opacity: 1, duration: 1 });
 tl.fromTo(".big-text", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
+
+//end of intro animation
+
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.to('.paper-plane', {
+    scrollTrigger: {
+        trigger:'.paper-plane',
+        toggleActions: "restart",
+        pin: true, 
+        immediateRender: false, 
+        start: "top top",
+    },
+    x:100, y:-10})
