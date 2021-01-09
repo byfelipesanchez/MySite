@@ -11,12 +11,37 @@ tl.fromTo(".big-text", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
 
 gsap.registerPlugin(ScrollTrigger);
 
+
 gsap.to('.paper-plane', {
     scrollTrigger: {
         trigger:'.paper-plane',
         toggleActions: "restart",
-        pin: true, 
+        pin: true,
         immediateRender: false, 
         start: "top top",
+        scrub: true
     },
     x:100, y:-10})
+
+    gsap.to('.paper-plane',{
+        x:300, y:20
+    })
+ 
+/* fix this 
+const tl = gsap.timeline({
+    scrollTrigger: {
+        trigger:'.paper-plane',
+        toggleActions: "restart",
+        pin: true,
+        immediateRender: false, 
+        start: "top top",
+        scrub: true,
+        autoRotate: true, 
+        curviness: 1.25,
+    }
+});
+
+tl.to('.paper-plane', {x:100, y:-20})
+    .to('.paper-plane', {x:300, y:10})
+    .to('.paper-plane', {x:500, y:100})
+    .to('.paper-plane', {x:750, y:-100})*/  
