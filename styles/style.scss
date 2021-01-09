@@ -63,11 +63,12 @@ body,html {
     text-align: end;
 }
 
-.name {
-    width: auto !important;
-    text-align: left !important;
-    margin-top: 50px;
-    cursor: pointer;
+.container-xxl{
+    width: auto;
+    text-align: center;
+    font-weight: bolder !important;
+    font-family: 'Lobster', cursive !important;
+    margin-top: 150px;
     color: black;
 }
 
@@ -86,10 +87,11 @@ main {
     bottom: 0;
     background: green;
 }
+
 .half-1 {
     background: url(../images/background.jpg);
     background-size: cover;
-    height: 80%;
+    height: 80% !important;
 }
 
 
@@ -119,8 +121,24 @@ section:nth-child(4) {
     text-align: center;
     font-size: larger;
 }
- .img-me-2 {
-     margin-left: 1000px;
-     margin-top: 150px;
- }
- 
+
+#contact {
+    width: auto;
+    text-align: center;
+
+}
+
+
+#contact-h3 {
+    text-align: center !important;
+    justify-content: center;
+    float:inline-start !important;
+    transform-style: preserve-3d;
+    border-radius: 30px;
+    padding: 0rem 5rem;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+    width:auto  !important;
+    display: inline !important;
+    font-size: 2.5em; 
+    margin-left: 550px;
+}
