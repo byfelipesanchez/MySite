@@ -1,2 +1,14 @@
 
 
+
+
+gsap.to('.paper-plane', {
+    scrollTrigger: {
+        trigger:'.paper-plane',
+        toggleActions: "restart",
+        pin: true,
+        immediateRender: false, 
+        start: "top top",
+        scrub: true
+    },
+    x:100, y:-10})
