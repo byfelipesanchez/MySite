@@ -8,6 +8,30 @@ tl.fromTo(".big-text", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
 
 //end of intro animation
  
+let phrases = ["I'm", "Felipe", "Sánchez"]
+let demo = document.querySelector(".demo")
+let animation = gsap.timeline({repeat:-1, repeatDelay:0.6})
+
+function createLayers (){
+    phrases.forEach(value=> {
+        let layer = document.createElement("div")
+        layer.innerHTML = value
+        demo.appendChild(layer)
+    })
+}
+
+function animateText (){
+    let layers = document.querySelectorAll(".demo div")
+    layers.forEach(function(element, index){
+        animation.fromTo(element, {opacity:0, scale:0}, {scale:1, opacity:1, repeat:1,
+yoyo:true, yoyoEase:true, repeatDelay:0.3})
+    })
+    gsap.set(".demo", {visibility:"visible"})
+}
+
+createLayers()
+animateText()
+
 /*
 gsap.registerPlugin(ScrollTrigger);
   
@@ -25,7 +49,4 @@ var tl = gsap.timeline({
     }
 });
 
-tl.to('.paper-plane', {x:100, y:-20})
-    .to('.paper-plane', {x:300, y:10})
-    .to('.paper-plane', {x:500, y:100})
-    .to('.paper-plane', {x:750, y:-100})*/
+tl.fromTo('.paper-plane', {x:100, y:-20}, {x:300, y:20})*/
