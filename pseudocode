@@ -12,3 +12,52 @@ gsap.to('.paper-plane', {
         scrub: true
     },
     x:100, y:-10})
+
+
+
+
+
+
+/*
+let phrases = ["I'm", "Felipe", "Sánchez"]
+let demo = document.querySelector(".demo")
+let animation = gsap.timeline({repeat:-1, repeatDelay:0.6})
+
+function createLayers (){
+    phrases.forEach(value=> {
+        let layer = document.createElement("div")
+        layer.innerHTML = value
+        demo.appendChild(layer)
+    })
+}
+
+function animateText (){
+    let layers = document.querySelectorAll(".demo div")
+    layers.forEach(function(element, index){
+        animation.fromTo(element, {opacity:0, scale:0}, {scale:1, opacity:1, repeat:1,
+yoyo:true, yoyoEase:true, repeatDelay:0.3})
+    })
+    gsap.set(".demo", {visibility:"visible"})
+}
+
+createLayers()
+animateText()
+
+/*
+gsap.registerPlugin(ScrollTrigger);
+  
+var tl = gsap.timeline({
+    scrollTrigger: {
+        trigger:'.paper-plane',
+        toggleActions: "restart",
+        pin: true,
+        immediateRender: false, 
+        start: "top top",
+        scrub: true,
+        autoRotate: true, 
+        curviness: 1.25,
+        invalidateOnRefresh: true
+    }
+});
+
+tl.fromTo('.paper-plane', {x:100, y:-20}, {x:300, y:20})*/
