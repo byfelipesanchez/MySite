@@ -51,6 +51,14 @@
   margin-top: 30px;
 }
 
+.name {
+  float: left !important;
+}
+
+.img-cam {
+  float: right !important;
+}
+
 body, html {
   height: 100%;
   margin-left: 10px;
@@ -70,16 +78,16 @@ body, html {
   text-align: end;
 }
 
-.container-xxl {
+.name {
   width: auto;
-  text-align: center;
   font-weight: bolder !important;
   font-family: 'Lobster', cursive !important;
   margin-top: auto !important;
   color: black;
+  margin-left: 90px !important;
 }
 
-.container-xxl:hover {
+.name:hover {
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
   cursor: pointer;
 }
@@ -99,7 +107,13 @@ main {
 .half-1 {
   background: url(../images/background.jpg);
   background-size: cover;
+  border-style: solid;
+  border-color: green;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 10px;
   height: 80% !important;
+  border-radius: 15px 50px 30px;
 }
 
 section:nth-child(2) {
@@ -154,16 +168,8 @@ section:nth-child(4) {
   margin-left: 550px;
 }
 
-.scroll-animation {
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-}
-
-.paper-plane {
-  height: 100px;
-  top: 50%;
-  left: 0%;
-  position: relative;
+.img-cam {
+  border-radius: 15px 50px 30px !important;
+  margin-left: 40px;
 }
 /*# sourceMappingURL=style.css.map */

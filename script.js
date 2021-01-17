@@ -8,19 +8,3 @@ tl.fromTo(".big-text", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
 
 //end of intro animation
  
-gsap.registerPlugin(ScrollTrigger);
-
-var tl = gsap.timeline({
-    defaults: {
-        trigger:'.paper-plane',
-        toggleActions: "restart",
-        pin: true,
-        immediateRender: false, 
-        start: "top top",
-        scrub: true,
-        autoRotate: true, 
-        curviness: 1.25,
-        invalidateOnRefresh: true
-    }})
-
-    .to(x:100, y:20)
