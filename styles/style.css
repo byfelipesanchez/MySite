@@ -107,9 +107,7 @@ main {
 .half-1 {
   background: url(../images/background.jpg);
   background-size: cover;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
+  border-radius: 7px !important;
   height: 80% !important;
 }
 
@@ -169,20 +167,11 @@ section:nth-child(4) {
   margin-left: 40px;
   width: auto;
   text-align: center;
-  border-radius: 50% !important;
+  border-radius: 7px !important;
 }
 
 .area {
   height: auto;
-}
-
-.igm-txt {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  width: auto;
-  margin-left: 400px !important;
 }
 
 .tool-bar {

@@ -42,3 +42,15 @@ ScrollTrigger.create({
     toggleClass: {className: 'tool-bar-scrolled',
         targets: '.tool-bar' }
 })
+
+const txt = gsap.utils.toArray('.name');
+
+txt.forEach((txt, i) => {
+  const anim = gsap.fromTo(txt, {autoAlpha: 0, y: 50}, {duration: 1, autoAlpha: 1, y: 0});
+  ScrollTrigger.create({
+    trigger: txt,
+    animation: anim,
+    once: false,
+    scrub: true 
+  });
+});

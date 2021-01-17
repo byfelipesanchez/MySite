@@ -102,9 +102,7 @@ main {
 .half-1 {
     background: url(../images/background.jpg);
     background-size: cover;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
+    border-radius: 7px !important;
     height: 80% !important;
 }
 
@@ -126,7 +124,6 @@ section:nth-child(4) {
     clear:right !important;
     transform-style: preserve-3d;
     border-radius: 30px;
-
     padding: 0rem 5rem;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
 }
@@ -183,19 +180,12 @@ section:nth-child(4) {
     margin-left: 40px;
     width: auto;
     text-align: center;
-    border-radius: 50% !important;   
+    border-radius: 7px !important;   
 }
 
 .area {
     height: auto;
 }
-
-.igm-txt {
-    display: flex;
-    text-align: center;
-    width: auto;
-    margin-left: 400px !important;
-}   
 
 
 .tool-bar {
