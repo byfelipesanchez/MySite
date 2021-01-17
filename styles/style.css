@@ -107,13 +107,10 @@ main {
 .half-1 {
   background: url(../images/background.jpg);
   background-size: cover;
-  border-style: solid;
-  border-color: green;
-  margin-left: 90px;
-  margin-right: 90px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 10px;
   height: 80% !important;
-  border-radius: 15px 50px 30px;
 }
 
 section:nth-child(2) {
@@ -169,28 +166,42 @@ section:nth-child(4) {
 }
 
 .img-cam {
-  border-radius: 15px 50px 30px !important;
   margin-left: 40px;
+  width: auto;
+  text-align: center;
+  border-radius: 50% !important;
 }
 
 .area {
   height: auto;
 }
 
+.igm-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  width: auto;
+  margin-left: 400px !important;
+}
+
 .tool-bar {
+  font-family: 'Heebo', sans-serif;
   height: 80px;
-  text-align: left;
+  text-align: right !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: 1330px !important;
+  margin-top: 40px !important;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   position: fixed;
-  width: 100%;
+  width: auto;
   left: 0;
   right: 0;
   top: 0;
@@ -200,5 +211,12 @@ section:nth-child(4) {
 
 .tool-bar--scrolled {
   height: 40px;
+}
+
+.tool-bar:hover {
+  cursor: pointer;
+  font-family: 'Heebo', sans-serif;
+  font-size: 30px;
+  margin-top: 60px !important;
 }
 /*# sourceMappingURL=style.css.map */

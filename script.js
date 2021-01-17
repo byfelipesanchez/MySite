@@ -18,7 +18,7 @@ img.forEach((img, i) => {
   ScrollTrigger.create({
     trigger: img,
     animation: anim,
-    once: true,
+    once: false,
     scrub: true 
   });
 });

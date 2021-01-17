@@ -37,6 +37,7 @@
 }
 //end of all the animation
 
+
 .heading {
     width: auto ;
     text-align: inherit;
@@ -101,13 +102,10 @@ main {
 .half-1 {
     background: url(../images/background.jpg);
     background-size: cover;
-    border-style: solid;
-    border-color: green;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
     height: 80% !important;
-    border-radius: 15px 50px 30px;;
 }
 
 
@@ -128,6 +126,7 @@ section:nth-child(4) {
     clear:right !important;
     transform-style: preserve-3d;
     border-radius: 30px;
+
     padding: 0rem 5rem;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
 }
@@ -181,22 +180,35 @@ section:nth-child(4) {
 //fix this (making the site responsive and mobile friendly)
 
 .img-cam {
-    border-radius: 15px 50px 30px !important;
     margin-left: 40px;
+    width: auto;
+    text-align: center;
+    border-radius: 50% !important;   
 }
 
 .area {
     height: auto;
 }
 
+.igm-txt {
+    display: flex;
+    text-align: center;
+    width: auto;
+    margin-left: 400px !important;
+}   
+
+
 .tool-bar {
+    font-family: 'Heebo', sans-serif;
     height: 80px;
-    text-align: left    ;
+    text-align: right !important;
     display: flex;
     align-items: center;
+    margin-left: 1330px !important;
+    margin-top: 40px !important;
     justify-content: center;
     position: fixed;
-    width: 100%;
+    width: auto;
     left: 0;
     right: 0;
     top: 0;
@@ -204,4 +216,12 @@ section:nth-child(4) {
     &--scrolled {
       height: 40px;
     }
+}
+
+.tool-bar:hover{
+    cursor: pointer;
+    font-family: 'Heebo', sans-serif;
+     font-size: 30px;
+     margin-top: 60px !important;
+
 }
