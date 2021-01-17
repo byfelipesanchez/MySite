@@ -185,3 +185,23 @@ section:nth-child(4) {
     margin-left: 40px;
 }
 
+.area {
+    height: auto;
+}
+
+.tool-bar {
+    height: 80px;
+    text-align: left    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: ease 0.4s;
+    &--scrolled {
+      height: 40px;
+    }
+}

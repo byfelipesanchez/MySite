@@ -8,3 +8,37 @@ tl.fromTo(".big-text", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
 
 //end of intro animation
  
+
+//img-me fade in animation
+
+const img = gsap.utils.toArray('.img-me');
+
+img.forEach((img, i) => {
+  const anim = gsap.fromTo(img, {autoAlpha: 0, y: 50}, {duration: 1, autoAlpha: 1, y: 0});
+  ScrollTrigger.create({
+    trigger: img,
+    animation: anim,
+    once: true,
+    scrub: true 
+  });
+});
+
+//end of img-me anim
+
+//scroll bar anim
+gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(MotionPathPlugin)
+
+ScrollTrigger.create({
+    start:'top -80',
+    end: 99999,
+    toggleClass: {className:'.scrollable-area', 
+        targers:'.tool-bar'}
+});
+
+ScrollTrigger.create({
+    start: 'top -80',
+    end: 99999, 
+    toggleClass: {className: 'tool-bar-scrolled',
+        targets: '.tool-bar' }
+})
