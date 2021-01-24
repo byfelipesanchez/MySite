@@ -11,6 +11,9 @@ tl.fromTo(".big-text", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
 
 //img-me fade in animation
 
+gsap.to('.name', {rotation:360 , delay:5})
+
+
 const img = gsap.utils.toArray('.img-me');
 
 img.forEach((img, i) => {
@@ -54,3 +57,4 @@ txt.forEach((txt, i) => {
     scrub: true 
   });
 });
+
