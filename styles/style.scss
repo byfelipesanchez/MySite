@@ -46,7 +46,9 @@
 }
 
 .name {
-    float: left !important;
+    width: auto;
+    text-align: center;  
+    font-size: 150px !important;
 }
 
 .img-cam {
@@ -54,6 +56,8 @@
 }
 
 body,html {
+    background-color: rgb(219, 179, 127) !important;
+    background-size: cover;
     height: 100%;
     margin-left: 10px;
     margin-right: 10px;
@@ -100,24 +104,10 @@ main {
 }
 
 .half-1 {
-    background: url(../images/background.jpg);
-    background-size: cover;
-    border-radius: 7px !important;
     height: 80% !important;
 }
 
 
-section:nth-child(2) {
-    background-color: #ffffff;
-}
-
-section:nth-child(3) {
-    background-color: white;
-}
-
-section:nth-child(4) {
-    background-color: white;
-}
 
 .img-me {
     float:inline-start !important;
@@ -214,4 +204,8 @@ section:nth-child(4) {
      font-size: 30px;
      margin-top: 60px !important;
 
+}
+
+.test {
+    height: 80%;
 }

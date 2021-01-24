@@ -25,7 +25,7 @@ img.forEach((img, i) => {
 
 //end of img-me anim
 
-//scroll bar anim
+//nav anim
 gsap.registerPlugin(ScrollTrigger)
 gsap.registerPlugin(MotionPathPlugin)
 
