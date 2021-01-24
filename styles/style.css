@@ -23,7 +23,7 @@
 }
 
 .slider {
-  background: lightcyan !important;
+  background: white !important;
   position: fixed;
   top: 0;
   left: 0;
@@ -54,7 +54,7 @@
 .name {
   width: auto;
   text-align: center;
-  font-size: 130px !important;
+  font-size: 120px !important;
 }
 
 .img-cam {
@@ -72,7 +72,7 @@ body, html {
 
 .container {
   margin-top: 70px;
-  background-size: 200px;
+  background-size: 100px;
   width: auto;
   text-align: center;
 }
@@ -98,6 +98,10 @@ body, html {
 .name:hover {
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
   cursor: pointer;
+}
+
+.igm-txt {
+  height: 35vh !important;
 }
 
 .half {
