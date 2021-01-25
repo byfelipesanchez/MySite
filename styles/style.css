@@ -54,7 +54,7 @@
 .name {
   width: auto;
   text-align: center;
-  font-size: 120px !important;
+  font-size: 100px !important;
 }
 
 .img-cam {
@@ -62,7 +62,7 @@
 }
 
 body, html {
-  background-color: #dbb37f !important;
+  background-color: #eedcdc !important;
   background-size: cover;
   height: 100%;
   margin-left: 10px;
@@ -84,6 +84,13 @@ body, html {
 
 .hide-name {
   display: none;
+  font-size: 30px;
+}
+
+.hr-name {
+  width: auto;
+  text-align: center;
+  margin-right: 50px !important;
 }
 
 .name {
@@ -95,13 +102,17 @@ body, html {
   margin-left: 90px !important;
 }
 
+.name:hover .hide-name {
+  display: block;
+}
+
 .name:hover {
-  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
   cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
 .igm-txt {
-  height: 35vh !important;
+  height: 40vh !important;
 }
 
 .half {
@@ -206,7 +217,14 @@ main {
   margin-top: 60px !important;
 }
 
-.test {
-  height: 80%;
+.skills {
+  float: inline-start !important;
+  clear: right !important;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  border-radius: 30px;
+  padding: 0rem 5rem;
+  -webkit-box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=style.css.map */
