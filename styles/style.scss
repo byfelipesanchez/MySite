@@ -59,10 +59,12 @@ body,html {
     background-color:white !important;
     background-size: cover;
     height: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
+    // margin-left: 10px;
+    // margin-right: 10px;
     margin-top: 3px;
 }
+
+#contact
 
 .container {
     margin-top: 70px;
@@ -79,6 +81,7 @@ body,html {
 .hide-name {
     display: none;
     font-size: 30px;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .hr-name {
@@ -92,9 +95,9 @@ body,html {
     width: auto;
     font-weight: bolder !important;
     font-family: 'Lobster', cursive !important;
-    margin-top: auto !important;
+    margin-top: 20px !important;
     color: black;
-    margin-left: 90px !important;
+    margin-left: 70px !important;
 }
 
 .name:hover .hide-name {
@@ -107,15 +110,21 @@ body,html {
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
     width: 100% !important;
     height: auto !important;
+    font-size: 80px !important;
 }
 
 .igm-txt {
-    height: 40vh !important;
+    height: 60vh !important;
 
 }
 
+#about-me {
+    height: 40vh !important;
+    margin-top: 5px !important;
+}
+
 .half {
-    height: 60vh !important;
+    height: 70vh !important;
 }
 
 main {
@@ -153,13 +162,15 @@ main {
 #contact {
     width: auto;
     text-align: center;
-
+    height: 40vh !important;
+    margin-top: 10px !important;
 }
 
 
 .contact-box {
     text-align: center !important;
     justify-content: center;
+    margin-left: 650px !important;
     float:inline-start !important;
     transform-style: preserve-3d;
     border-radius: 30px;
@@ -232,11 +243,29 @@ main {
 
 }
 
-.skills {
-    float:inline-start !important;
-    clear: right !important;
-    transform-style: preserve-3d;
-    border-radius: 30px;
-    padding: 0rem 5rem;
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+// .skills {
+//     float:inline-start !important;
+//     clear: right !important;
+//     transform-style: preserve-3d;
+//     border-radius: 30px;
+//     padding: 0rem 5rem;
+//     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+// }
+
+footer {
+    height: 40vh!important;
+    background-color: rgb(174, 208, 224);
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0 !important;
+}
+
+.display-3 {
+    font-size: 100px !important;
+    width: auto;
+    text-align: center;
+}
+
+.ball  {
+    width: 10% !important;
 }

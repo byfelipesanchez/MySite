@@ -19,12 +19,15 @@ gsap.fromTo('.name', {autoAlpha:0}, {autoAlpha:1 , rotation:360 , delay:4.5})
 const img = gsap.utils.toArray('.img-me');
 
 img.forEach((img, i) => {
-  const anim = gsap.fromTo(img, {autoAlpha: 0, y: 50}, {duration: 1, autoAlpha: 1, y: 0});
+  const anim = gsap.fromTo(img, {autoAlpha: 0, y: 50}, {duration: 2, autoAlpha: 1, y: 0});
   ScrollTrigger.create({
     trigger: img,
     animation: anim,
+    start: 'top 90%',
+    end: '+=500',
     once: false,
-    scrub: true 
+    scrub: true,
+    markers: true
   });
 });
 
@@ -63,3 +66,14 @@ txt.forEach((txt, i) => {
   });
 });
 
+// gsap.registerPlugin(ScrollTrigger)
+
+// gsap.to('.p', {
+//   ScrollTrigger: {
+//     trigger:'.p',
+//     start: 'top top',
+//   },
+//   x:200
+// });
+
+gsap.fromTo('.ball', {x:-600}, {x:600, duration:3, delay:7})
