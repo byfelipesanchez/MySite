@@ -76,4 +76,4 @@ txt.forEach((txt, i) => {
 //   x:200
 // });
 
-gsap.fromTo('.ball', {x:-600}, {x:600, duration:3, delay:7})
+gsap.fromTo('.ball', {autoAlpha:0}, {autoAlpha:1, delay:7})

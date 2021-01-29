@@ -62,7 +62,7 @@
 }
 
 body, html {
-  background-color: white !important;
+  background-color: #36454f !important;
   background-size: cover;
   height: 100%;
   margin-top: 3px;
@@ -99,7 +99,7 @@ body, html {
   font-weight: bolder !important;
   font-family: 'Lobster', cursive !important;
   margin-top: 20px !important;
-  color: black;
+  color: white;
   margin-left: 70px !important;
 }
 
@@ -126,6 +126,7 @@ body, html {
 
 .half {
   height: 70vh !important;
+  background: #36454f !important;
 }
 
 main {
@@ -133,11 +134,12 @@ main {
   width: 100%;
   top: 50px;
   bottom: 0;
-  background: green;
+  background: #36454f !important;
 }
 
 .half-1 {
   height: 60vh !important;
+  background: #36454f !important;
 }
 
 .img-me {
@@ -157,6 +159,7 @@ main {
   width: auto;
   text-align: center;
   font-size: larger;
+  font-weight: bolder !important;
 }
 
 #contact {
@@ -243,9 +246,5 @@ footer {
   font-size: 100px !important;
   width: auto;
   text-align: center;
-}
-
-.ball {
-  width: 10% !important;
 }
 /*# sourceMappingURL=style.css.map */
