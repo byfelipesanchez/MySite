@@ -181,6 +181,7 @@ main {
   -webkit-box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
           box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
   width: auto  !important;
+  background-color: #36454f !important;
   font-size: 2.5em;
   margin-left: 200px;
   margin-right: 200px;
@@ -242,5 +243,13 @@ footer {
   font-size: 100px !important;
   width: auto;
   text-align: center;
+}
+
+.line {
+  width: 1500px;
+  height: 100px;
+  border: solid 5px #000;
+  border-color: #577286 transparent transparent transparent;
+  border-radius: 50%/100px 100px 0 0;
 }
 /*# sourceMappingURL=style.css.map */

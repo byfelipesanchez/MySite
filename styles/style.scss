@@ -184,6 +184,7 @@ main {
     padding: 0rem 5rem;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
     width:auto  !important;
+    background-color:#36454f !important;
     font-size: 2.5em; 
     margin-left: 200px;
     margin-right: 200px;
@@ -276,3 +277,10 @@ footer {
 //     width: 10% !important;
 // }
 
+.line {
+    width: 1500px; 
+    height: 100px;  
+    border: solid 5px #000;
+    border-color:#577286 transparent transparent transparent;
+    border-radius: 50%/100px 100px 0 0;
+}
