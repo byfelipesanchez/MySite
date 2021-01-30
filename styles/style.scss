@@ -55,7 +55,7 @@
 }
 
 body,html {
-    background-color:#36454f !important;
+    background-color:#36454f!important;
     background-size: cover;
     height: 100%;
     // margin-left: 10px;
@@ -104,13 +104,13 @@ body,html {
 
 }
 
-.name:hover {
-    cursor: pointer;
-    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
-    width: 100% !important;
-    height: auto !important;
-    font-size: 80px !important;
-}
+// .name:hover {
+//     cursor: pointer;
+//     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+//     width: 100% !important;
+//     height: auto !important;
+//     font-size: 80px !important;
+// }
 
 .igm-txt {
     height: 60vh !important;
@@ -164,7 +164,7 @@ main {
 #contact {
     width: auto;
     text-align: center;
-    height: 40vh !important;
+    height: 30vh !important;
     margin-top: 10px !important;
 }
 
@@ -172,16 +172,15 @@ main {
 .contact-box {
     text-align: center !important;
     justify-content: center;
-    margin-left: 650px !important;
     float:inline-start !important;
     transform-style: preserve-3d;
     border-radius: 30px;
     padding: 0rem 5rem;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
     width:auto  !important;
-    display: inline !important;
     font-size: 2.5em; 
-    margin-left: 550px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 @media only screen and (min-width: 480px) {
@@ -255,10 +254,9 @@ main {
 // }
 
 footer {
-    height: 40vh!important;
-    background-color: rgb(174, 208, 224);
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+    height: 50vh !important;
+    background-color: #59656e !important ;
+
     padding: 0 !important;
 }
 
@@ -271,3 +269,4 @@ footer {
 // .ball  {
 //     width: 10% !important;
 // }
+
