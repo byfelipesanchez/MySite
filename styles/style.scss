@@ -117,6 +117,11 @@ body,html {
 
 }
 
+.about-txt{
+    margin-right: 20px !important;
+    margin-top: 200px;
+}
+
 #about-me {
     height: 40vh !important;
     margin-top: 5px !important;
@@ -149,9 +154,10 @@ main {
     border-radius: 20% !important;
     padding: 0rem 0rem;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
-    width: 100%;
+    width: auto;
     height: auto;
-    
+    margin-right: 100px;
+    margin-top: 150px;    
 }
 
 .p {

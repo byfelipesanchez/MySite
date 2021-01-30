@@ -26,8 +26,7 @@ img.forEach((img, i) => {
     start: 'top 90%',
     end: '+=500',
     once: false,
-    scrub: true,
-    markers: true
+    scrub: true
   });
 });
 
