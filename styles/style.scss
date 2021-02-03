@@ -118,8 +118,8 @@ body,html {
 }
 
 .about-txt{
-    margin-right: 20px !important;
-    margin-top: 200px;
+    margin-right: 25px !important;
+    margin-top: 160px;
 }
 
 #about-me {
@@ -283,4 +283,16 @@ footer {
     border: solid 5px #000;
     border-color:#577286 transparent transparent transparent;
     border-radius: 50%/100px 100px 0 0;
+}
+
+.list {
+    width: auto;
+    text-align: center;
+    font: bolder !important;
+    color:rgb(19, 18, 18);
+}
+
+.abt {
+    width: auto;
+    margin-right: 30px !important;
 }
